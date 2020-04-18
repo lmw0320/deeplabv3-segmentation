@@ -1,0 +1,22 @@
+[{
+"classes" : ["_background_", "net1", "net2", "net3", "net4"],
+"img_height": 256,
+"img_width": 256,
+"bone_name": "inceptionresnetv2",
+"model_name": "deeplabv3",
+"log_path": " ",
+
+"json_path": "D:\\deep_learning_data\\train\\json",
+"train_img_path":"D:\\deep_learning_data\\train\\images",
+"label_path": "D:\\deep_learning_data\\train\\labels",
+"weights_path":"C:\\Users\\Administrator\\.keras\\models\\mobilenet_1_0_224_tf_no_top.h5",
+"batch_size": 4,
+"epochs": 100,
+"init_with": "last",
+
+"bottom_point":"119.757843, 25.419710",
+"top_point": "119.763336, 25.424672 ",
+"predict_img_path": "D:\\deep_learning_data\\test1",
+"result_path": "D:\\deep_learning_data\\result",
+"area_per_pixel": 0.09
+}]
